@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container
+{
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  border-radius: 15px;
+  padding: 23px;
+}
+.bgimg-1 {
+  background-image: url("img1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img3.jpg");
+  min-height: 400px;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.nav
+{
+   /* Fallback color */
+     ; /* Black background with 0.5 opacity */
+  color: white; /* Grey text */
+  letter-spacing: 3px;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  border:transparent;
+
+
+}
+
+.resume
+{
+
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+color: white; /* <—– change your color here*/
+border-bottom: 3px solid white;
+background-color: transparent;
+
+
+}
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 2s steps(16, end) , blink .75s step-end infinite;
+ 	
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top nav">
+  <div class="container-fluid">
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#name">Home</a></li>
+      <li><a href="#resume">Portfolio</a></li>
+      <li><a href="#websites">Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="bgimg-1">
+  <div id="name">
+  <div class="caption">
+  <div class="typewriter">
+    <div class="typewriter-text">Hi, I am Praveen</div>
+</div>
+  </div>
+</div>
+</div>
+
+<div id="resume">
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">A. PRAVEEN KUMAR</h3>
+<div class="text-center">       <p><h5><span class="glyphicon glyphicon-envelope"></span> praveen1704@outlook.com | <span class="glyphicon glyphicon-earphone"></span> +91 7200763832 | <span class="glyphicon glyphicon-map-marker"></span> Kundrathur, Chennai - 600 069</h5></p></div>
+ 
+      
+    <div class = "container">  
+      <div>
+        &nbsp;
+      </div>
+      <div class="row">
+        <div class="col-xs-4"><h4><span class="glyphicon glyphicon-briefcase"></span>  Work Experience
+        </h4>
+      </div>
+        <div class="col-xs-8 we">August 2018 – Present:<br>
+                    Programmer in Cognizant Technology Solutions:<br>
+                    <ul>
+                      <li>One Year of Experience in Oracle technologies and have knowledge on Procedures, triggers, Packages and UTL packages.
+                      </li>
+                      <li>Automated most of the reports using Oracle which saved 200$/month for the client.
+                        
+                      </li>
+                      <li>Worked in Production Support and documented all the changes by following Gxp methodologies.
+                        
+                      </li>
+                      <li>Automated the Change process by creating a UI tool in Python,  which directly performs the change and inform the business regarding the change via mail.</li>
+                      <li>Interacted with clients to solve critical problems and provided solutions efficiently.</li>
+                    </ul>
+                    
+        </div>
+      </div>
+      <div>
+        &nbsp;
+      </div>
+      <div class="row">
+        <div class="col-xs-4"><h4><span class="glyphicon glyphicon-stats"></span>  Skills
+        </h4>
+      </div>
+        <div class="col-xs-8 we"> Python:<br>
+                      <ul>
+                        <li>Created a full stack Web application using Python Flask Framework and Mysql Database</li>
+                        <li>Created a GUI tool for converting images into bluscales using Tkinter framework.</li>
+                      </ul>
+                      
+                      
+
+                      Oracle:<br>
+                      <ul>
+                        <li>Created Packages, Procedures, triggers and complex SQL queries to solve Businees requirements</li>
+                      </ul>
+                      Web Technologies<br>
+                      <ul>
+                        <li>Cretaed and hosted Multiple Websites using HTML5, CSS3, Javascript, React JS and XML</li>
+                        <li>Link to my website <a href="alphapk.000webhostapp.com">alphapk.000webhostapp.com</a></li>
+                      </ul>
+        </div>
+      </div>
+      
+      <div>
+        &nbsp;
+      </div>
+      <div class="row">
+        <div class="col-xs-4"><h4><span class="glyphicon glyphicon-education"></span>  Education
+        </h4>
+      </div>
+        <div class="col-xs-8 we"> 2018 - BSc in Computer Science From Vels University - 89% <br>
+                      2015 - HSC from PSBB Mat Hr Sec School - 78%<br>
+                     
+                      2013 - SSLC from PSBB Mat Hr Sec School - 93% <br>
+        </div>
+      </div>
+      <div>
+        &nbsp;
+      </div>
+        <div class="footer">
+      <div class="footer-bottom">
+        <a href="www.linkedin.com/in/praveen-kumar-1704"><i style="font-size:24px" class="fa">&#xf08c;</i></a>&nbsp;
+        <a href="https://github.com/alphapk"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
+        
+      </div>
+    </div>
+    <div>
+        &nbsp;
+      </div>
+    </div>
+  </div>
+  <!--------->
+</div>
+
+<div id="websites">
+  <div class="bgimg-2">
+  <div class="caption">
+     <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WORKS</span>
+  </div>
+</div>
+
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div id="contact">
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">CONTACT</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+</div>
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border"><blockquote>Knowing is not enough, we must apply. Willing is not enough, we must do.    <footer>-- Bruce Lee</footer></blockquote>
+</span>
+  </div>
+</div>
+
+</body>
+</html>
